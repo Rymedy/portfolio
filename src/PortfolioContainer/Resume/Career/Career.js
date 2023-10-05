@@ -220,7 +220,7 @@ export default function Career() {
             <ul>
               <li>Spotify Artist Searcher</li>
             </ul>
-            <p>Tools Utilised: Vite + ReactJS, Spotify Web API</p>
+            <p>Tools Utilised: React, TypeScript, Spotify Web API</p>
             <ul>
               <li>Hearthstone Web Clone</li>
             </ul>
