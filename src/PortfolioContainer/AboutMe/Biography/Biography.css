@@ -1,0 +1,114 @@
+.biography-container {
+    display: flex;
+    justify-content: center;
+    min-height: fit-content;
+}
+.biography-parent {
+    display: flex;
+    color: black;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.shadow-container {
+    display: flex;
+    width: 1000px;
+    height: 775px;
+    box-shadow: 0px 0px 20px 1px rgb(57, 57, 57);
+}
+.imgportrait {
+    width: 50%;
+    height: 100%;
+    background-image: url('../../../assets/AboutMe/aboutme-portrait.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.biography-info {
+    width: 50%;
+    padding: 20px 15px;
+    word-spacing: 15px;
+    font-size: 20px;
+}
+.summary-list {
+    padding-top: 20%;
+    word-spacing: 0px;
+}
+.summary-list h1 {
+    font-size: 20px;
+}
+.sumamry-list li {
+    line-height: 20px;
+}
+.summary-list li::marker{
+   font-size: 2em;
+   color: var(--dark-orange);
+   line-height: 0.1;
+}
+.biography-options {
+    display: flex;
+    justify-content: center;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+.biography-options .highlighted-btn {
+    margin: 0 0 0 28px;
+}
+@media screen and (max-width: 1200px) {
+    .shadow-container {
+        width: 800px;
+        height: 750px;
+    }
+    .biography-options {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .shadow-container {
+        width: 600px;
+        height: 625px;
+    }
+    .imgportrait {
+        display: none !important;
+    }
+    .biography-info {
+        width: 100%;
+    }
+    .biography-options {
+        padding-top: 5%;
+    }
+    .biography-options .btn {
+        width: 150px;
+        padding: 15px 0;
+        z-index: 700;
+    }
+}
+@media screen and (max-width: 700px) {
+    .shadow-container {
+        width: 500px;
+        height: 575px;
+    }
+    .biography-options {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .shadow-container {
+        width: 400px;
+        height: 575px;
+    }
+    .biography-info {
+        font-size: 17.5px;
+    }
+    .biography-options {
+        padding-top: 5.5%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .shadow-container {
+        width: 300px;
+        height: 700px;
+    }
+    .biography-options {
+        display: none !important;
+    }
+}
