@@ -1,0 +1,284 @@
+.career-container {
+    display: flex;
+    justify-content: center;
+    min-height: fit-content;
+}
+.career-parent {
+    display: flex;
+    color: black;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.career-options {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 0px 20px 1px rgb(57, 57, 57);
+}
+.career-info {
+    padding: 20px 15px;
+    margin-left: 40px;
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    overflow: auto;
+    text-align:justify;
+    pointer-events: none;
+}
+.career-info li {
+    font-family: Poppins SemiBold;
+    font-size: 25px;
+    color: rgb(227, 92, 62);
+}
+.career-info li::marker{
+    font-size: 2em;
+    color: var(--dark-orange);
+    line-height: 0.1;
+ }
+ .career-info p {
+    font-family: Poppins SemiBold;
+    color: rgb(31,30,47);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+ }
+ .career-info h3 {
+    font-family: Poppins SemiBold;
+    line-height: 22.5px;
+    color: rgb(31,30,47);
+    font-size: 16px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+ }
+.career-info-education {
+    padding-top: 12.5%;
+    padding-bottom: 25%;
+}
+.career-info-work {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+.career-info-skills {
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.career-info-projects {
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.career-info-interests {
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+ .options-svg {
+    background-color: rgb(31,30,47);
+    width: 60px;
+    height: 100%;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .options-svg svg {
+    margin: 50% 0;
+ }
+.options-buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 8.9% 0;
+}
+.options-buttons ul {
+    padding: 0;
+    list-style-type: none;
+}
+.options-buttons li {
+    font-family: Poppins SemiBold;
+    font-size: 20px;
+    margin: 3.05% 0;
+}
+.options-buttons li:hover {
+    cursor: pointer;
+    color: white;
+}
+.progress-bar-bg {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    background-color: var(--dark-orange);
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.progress-bar-js {
+    width: 79%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.progress-bar-react {
+    width: 86%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.progress-bar-css {
+    width: 82.5%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.progress-bar-java {
+    width: 75%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.progress-bar-python {
+    width: 77.5%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.progress-bar-html {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(31,30,47);
+    border-radius: 50px;
+}
+.career-skills-left {
+    display: inline-block;
+    width: 50%;
+}
+.career-skills-right {
+    display: inline-block;
+    width: 50%;
+}
+.career-btn {
+    padding: 15px 0px;
+    padding-left: 15px;
+    outline: none;
+    box-shadow: inset 0 0 0 0 rgb(31,30,47);
+    transition: 0.6s ease-in-out;
+    width: 80%;
+    border-radius: 0 50px 50px 0;
+}
+.career-btn:hover {
+    box-shadow: inset 400px 0 0 0 rgb(31,30,47);
+}
+.responsive-header {
+    font-family: Poppins SemiBold;
+    font-size: 25px;
+    padding-bottom: 2%;
+    display: none;
+}
+@media screen and (max-width: 1375px) {
+    .career-options {
+        width: 400px;
+        height: 400px;
+    }
+    .career-info {
+        width: 600px;
+        height: 400px;
+        margin-left: 25px;
+    }
+    .options-svg {
+        padding: 5% 0;
+    }
+    .progress-bar-bg {
+        width: 225px;
+        height: 20px;
+    }
+    .career-info h3 {
+        font-family: Poppins SemiBold;
+        line-height: 20px;
+        padding-left: 40px;
+        padding-bottom: 30px;
+     }
+     .options-buttons {
+        padding: 5.25% 0;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .career-options {
+        display: none !important;
+    }
+    .career-info {
+        width: 800px;
+        height: 1850px;
+        margin-left: 25px;
+        box-shadow: 0px 0px 20px 1px rgb(57, 57, 57);
+    }
+    .career-info h3 {
+        font-family: Poppins SemiBold;
+        line-height: 20px;
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+    .career-info-education {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .career-info-work {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .career-info-skills {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .career-info-projects {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .career-info-interests {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .career-info p {
+        font-family: Poppins SemiBold;
+        color: rgb(31,30,47);
+        font-size: 20px;
+        padding-bottom: 0px;
+     }
+     .responsive-header {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .career-info {
+        width: 600px;
+        height: 1800px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .career-info {
+        width: 500px;
+        height: 1725px;
+    }
+    .career-info li {
+        font-size: 18px;
+    }
+    .career-info li::marker{
+        font-size: 1em;
+        line-height: 0.05;
+     }
+     .career-info p {
+        font-family: Poppins SemiBold;
+        color: rgb(31,30,47);
+        font-size: 18px;
+        padding-left: 40px;
+        padding-bottom: 10px;
+     }
+     .progress-bar-bg {
+        width: 175px;
+        height: 17.5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .career-info {
+        width: 400px;
+    }
+}
